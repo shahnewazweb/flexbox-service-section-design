@@ -1,0 +1,63 @@
+body{
+    background:#262626;
+}
+.box-area{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+   align-items:center;  
+}
+.single-box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:300px;
+    height:auto;
+    border-radius: 4px;
+    background-color:#fff;
+    margin:20px;
+    padding:20px;
+    text-align:center;
+    position:relative;
+    transition: .3s;
+}
+.img-area{
+   
+    width:100px;
+    height:100px;
+    border:6px solid #ddd;
+    border-radius:50%;
+    margin-bottom: 10px;
+    padding:20px;
+    background-size:cover;
+    background-position: center center;
+}
+
+.single-box:nth-child(1) .img-area{
+     background-image:url(images/ShahNewaz.jpg);
+}
+.single-box:nth-child(2) .img-area{
+     background-image:url(images/ShahNewaz.jpg);
+}
+.single-box:nth-child(3) .img-area{
+     background-image:url(images/ShahNewaz.jpg);
+}
+.header-text{
+    font-size:24px;
+    font-weight:500;
+    line-height:48px;
+}
+.img-text{
+   padding-top: 20px;
+}
+.img-text p{
+    font-size: 15px;
+    font-weight:400;
+    line-height: 30px;
+    
+}
+
+.single-box:hover{
+    background-color:#e84393;
+    color:#fff;
+}
